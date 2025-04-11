@@ -1,4 +1,18 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Dashiell LLC Website
+
+Official website for Dashiell LLC, a home renovation and repair services company.
+
+## About
+
+This website showcases Dashiell LLC's services including painting, drywall, flooring, siding, garage doors, closets, and water damage repair. It provides information about our locations, contact details, and service offerings.
+
+## Technologies Used
+
+- **Framework**: Next.js 15.3.0
+- **UI**: React 19
+- **Styling**: Tailwind CSS
+- **Language**: TypeScript
+- **Linting**: ESLint
 
 ## Getting Started
 
@@ -16,21 +30,73 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- `app/`: Next.js app directory containing pages and layouts
+  - `about/`: About page
+  - `contact/`: Contact page
+  - `locations/`: Locations pages
+  - `services/`: Service pages for different offerings
+- `components/`: Reusable React components
+  - `icons/`: SVG icons for services
+- `public/`: Static assets
+- `utils/`: Utility functions
+- `types/`: TypeScript type definitions
 
-## Learn More
+## Features
 
-To learn more about Next.js, take a look at the following resources:
+- **Service Showcase**: Detailed pages for each service offering
+- **Location Information**: Information about our Chelsea location
+- **Contact Form**: Easy way for customers to reach out
+- **Responsive Design**: Works on desktop and mobile devices
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Deployment
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+For deployment instructions, see the [DEPLOYMENT_GUIDE.md](./DEPLOYMENT_GUIDE.md).
 
-## Deploy on Vercel
+For GitHub setup instructions, see the [GITHUB_SETUP_GUIDE.md](./GITHUB_SETUP_GUIDE.md).
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Development
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Prerequisites
+
+- Node.js (version 18 or later)
+- npm or yarn
+
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/dashiell-llc.git
+
+# Navigate to the project directory
+cd dashiell-llc
+
+# Install dependencies
+npm install
+# or
+yarn install
+```
+
+### Available Scripts
+
+- `npm run dev` - Run development server with Turbopack
+- `npm run build` - Build for production
+- `npm run start` - Start production server
+- `npm run lint` - Run ESLint
+
+## Contributing
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## License
+
+[Specify your license here]
+
+## Contact
+
+For questions or support, please contact [your contact information].
